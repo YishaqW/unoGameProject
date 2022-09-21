@@ -169,10 +169,9 @@ function game() {
   document.querySelector("#deck-of-cards-cpu").appendChild(player2Img);
   console.log(cpuValue);
 
-  let results = document.getElementById
-  ("result")
-  results.style.fontFamily = "cursive"
-  
+  let results = document.getElementById("result");
+  results.style.fontFamily = 'Silkscreen'
+
   if (playerValue > cpuValue) {
     results.innerText = "Player 1 wins";
   } else if (cpuValue > playerValue) {
@@ -187,6 +186,49 @@ function reset() {
 }
 
 const resetBtn = document.querySelector("#reset");
-const startBtn = document.querySelector("#Controller");
+const startBtn = document.querySelector("#start");
 resetBtn.addEventListener("click", reset);
 startBtn.addEventListener("click", game);
+
+
+const body = document.querySelector("body");
+const p = document.querySelector("p");
+const h3 = document.querySelector(".words")
+const h2 = document.querySelector("h2")
+const heading = document.querySelector("#heading")
+
+const ColorArray = [
+  "#bf382c", //red
+  "#e7eca3", //yellow
+  "#ec6831", //orange
+  "#a4c5ea", //cyan
+  "#008080", // blue
+  "#857463", // gray
+  "#86b49c", //teal
+  "#9de19a", //green
+  "#bca9e1", //purple
+  "#98a7f2", //violet
+];
+
+let randColor = ColorArray[Math.floor(Math.random() * ColorArray.length)];
+
+function generate() {
+  body.style.backgroundColor = randColor;
+  p.style.color = "white";
+  h3.style.color = "white"
+  h2.style.color = "white"
+}
+
+generate();
+
+function colorUpdate() {
+  if (randColor === "#e7eca3" || randColor === "#9de19a") {
+    p.style.color = "black"
+    h3.style.color = "black"
+    h2.style.color = "black"
+    
+  }
+}
+
+colorUpdate();
+

@@ -1,5 +1,10 @@
 #heading {
+  font-family: 'Silkscreen', cursive;
+  padding: 20px;
+  background-color: wheat;
+  border: solid 1px;
   text-align: center;
+  font-size: 33px;
 }
 
 .bigDiv {
@@ -8,43 +13,49 @@
   justify-content: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-}
-.buttons {
-  background-color: grey;
-  color: red;
-  text-align: center;
-  width: 75%;
-  padding: 0px;
-}
-.buttons h3 {
-  background-color: black;
-  padding: 0px;
-}
 .inner {
-  background-color: black;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 button {
-  padding: 5px;
+  padding: 15px;
   margin: 2px;
   border-radius: 25px;
   background-color: red;
   color: #fff;
+  font-family: 'Silkscreen', cursive;
 }
 
 #mainButtons {
   display: flex;
   justify-content: center;
-
   margin-top: 60px; 
- 
+}
+
+#middleBarrier {
+  height: 400px;
+  padding: 5px;
+  margin: 70px;
+}
+
+.words {
+  font-size: 25px;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#result {
+  text-align: center;
+  font-size: 25px;
 }
