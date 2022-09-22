@@ -154,7 +154,7 @@ function game() {
   let player1 = getRandom();
   const player1Img = document.createElement("img");
   player1Img.src = player1.image;
-  player1Img.style.width = "30%";
+  player1Img.style.width = "50%";
   player1Img.style.marginTop = "50px";
   const playerValue = player1.value;
   document.querySelector("#deck-of-cards-player").appendChild(player1Img);
@@ -163,7 +163,7 @@ function game() {
   let player2 = getRandom();
   const player2Img = document.createElement("img");
   player2Img.src = player2.image;
-  player2Img.style.width = "30%";
+  player2Img.style.width = "50%";
   player2Img.style.marginTop = "50px";
   const cpuValue = player2.value;
   document.querySelector("#deck-of-cards-cpu").appendChild(player2Img);
