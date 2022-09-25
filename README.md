@@ -39,6 +39,10 @@
 
 ---
 
-## **Colors**
+## **Upcoming Features**
 
-
+- full deck of cards in rotation
+- dragging motion to the middle playing field
+- full game functions with 7 cards in playing hand
+- "uno" button with functions built for both players 
+- demo video of how to play
