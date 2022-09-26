@@ -29,6 +29,19 @@ button {
   font-family: 'Silkscreen', cursive;
 }
 
+button:hover {
+  border: solid;
+  color: rgb #F5DF99;
+  cursor: pointer; 
+  box-shadow: 0px 5px 60px 15px;
+}
+
+button:active {
+  color: #F5DF99;
+  background-color: aliceblue;
+  box-shadow: 0px 5px 60px 15px ; 
+}
+
 #mainButtons {
   display: flex;
   justify-content: center;

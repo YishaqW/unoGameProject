@@ -191,6 +191,8 @@ resetBtn.addEventListener("click", reset);
 startBtn.addEventListener("click", game);
 
 
+
+
 const body = document.querySelector("body");
 const p = document.querySelector("p");
 const h3 = document.querySelector(".words")
