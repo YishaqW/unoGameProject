@@ -228,7 +228,6 @@ function colorUpdate() {
     p.style.color = "black"
     h3.style.color = "black"
     h2.style.color = "black"
-    
   }
 }
 
